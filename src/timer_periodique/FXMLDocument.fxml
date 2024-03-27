@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<AnchorPane id="AnchorPane" fx:id="anchorPane" prefHeight="312.0" prefWidth="574.0" styleClass="anchor" stylesheets="@../css/css.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="timer_periodique.FXMLDocumentController">
+    <children>
+      <Circle fx:id="rougeG1" layoutX="387.0" layoutY="36.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="orangeG1" layoutX="387.0" layoutY="60.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="vertG1" layoutX="387.0" layoutY="83.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="rougeG2" layoutX="366.0" layoutY="47.0" radius="11.0" scaleX="0.6" scaleY="0.6" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="orangeG2" layoutX="366.0" layoutY="61.0" radius="11.0" scaleX="0.6" scaleY="0.6" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="vertG2" layoutX="366.0" layoutY="75.0" radius="11.0" scaleX="0.6" scaleY="0.6" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="rougeP1" layoutX="379.0" layoutY="174.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="orangeP1" layoutX="379.0" layoutY="187.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="vertP1" layoutX="379.0" layoutY="199.0" radius="5.0" stroke="BLACK" strokeType="INSIDE" />
+    </children>
+</AnchorPane>
